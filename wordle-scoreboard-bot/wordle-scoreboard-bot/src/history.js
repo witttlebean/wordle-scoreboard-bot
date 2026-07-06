@@ -1,6 +1,7 @@
 const { parseWordleMessage } = require('./parser');
 const { recordScore } = require('./storage');
 const { getResultsDate } = require('./scoring');
+const { resolvePlainName } = require('./resolver');
 
 /**
  * Scans backwards through a channel's message history looking for past Wordle
@@ -31,8 +32,22 @@ async function backfillHistory(channel, wordleBotName, timezone, limit = 500) {
       if (!parsed) continue;
 
       const resultsDate = getResultsDate(message.createdAt, timezone);
-      for (const { score, userIds } of parsed) {
-        for (const userId of userIds) {
+      for (const { score, userIds, plainNames } of parsed) {
+        const resolvedIds = new Set(userIds);
+
+        for (const name of plainNames || []) {
+          const id = await resolvePlainName(message.guild, name);
+          if (id) {
+            resolvedIds.add(id);
+          } else {
+            console.warn(
+              `Backfill: could not resolve unlinked name "@${name}" for ${resultsDate}. ` +
+                `Add it to ALIASES_JSON (see .env.example) to fix this permanently.`
+            );
+          }
+        }
+
+        for (const userId of resolvedIds) {
           recordScore(resultsDate, userId, score);
           recorded += 1;
         }

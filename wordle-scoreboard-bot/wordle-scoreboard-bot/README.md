@@ -29,8 +29,11 @@ leaderboard back into the same channel (or a different one, if you set
 
 1. Go to https://discord.com/developers/applications → **New Application**.
 2. Go to the **Bot** tab → **Add Bot**.
-3. Under **Privileged Gateway Intents**, enable **Message Content Intent**.
-   (Required — without this the bot can't read the Wordle app's message text.)
+3. Under **Privileged Gateway Intents**, enable **Message Content Intent**
+   (required — without this the bot can't read the Wordle app's message
+   text) **and Server Members Intent** (required to match people up when
+   the Wordle app can't produce a real mention for them — see "Unlinked
+   names" below).
 4. Click **Reset Token** / **Copy** to get your bot token. Keep this secret.
 5. Go to **OAuth2 → URL Generator**:
    - Scopes: `bot`
@@ -88,6 +91,30 @@ standings so far, or `!score` to see last week's results any time.
 
 That's it — it'll sit there quietly recording each day's message and drop
 the leaderboard into the channel every Sunday at noon.
+
+## Unlinked names
+
+Sometimes the Wordle app can't produce a real mention for someone and just
+writes plain text instead (e.g. `@wittle` with no highlight/click, instead of
+a real ping). When this happens, the bot tries to automatically match that
+name against your server's member list (comparing it to everyone's username,
+display name, and nickname). This requires the **Server Members Intent** to
+be enabled (see setup step 3 above).
+
+If auto-matching still can't find someone (unusual username formatting,
+name changed, etc.), you'll see a warning in the logs like:
+```
+Could not resolve unlinked name "@wittle" in Wordle message for 2026-06-28.
+```
+Fix it permanently by adding a manual override to the `ALIASES_JSON`
+variable (Railway → Variables tab, or your local `.env`):
+```
+{"wittle": "111111111111111111"}
+```
+To get someone's Discord user ID: enable **Developer Mode** (User Settings →
+Advanced), then right-click their name anywhere in Discord → **Copy User
+ID**. After adding the alias, run `!backfill` to re-scan and pick up any
+past days that were missed.
 
 ## Backfilling past results
 

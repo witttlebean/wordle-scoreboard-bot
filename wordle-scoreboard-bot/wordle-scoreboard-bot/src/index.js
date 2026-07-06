@@ -6,6 +6,7 @@ const { DateTime } = require('luxon');
 const { parseWordleMessage } = require('./parser');
 const { recordScore, loadScores } = require('./storage');
 const { backfillHistory } = require('./history');
+const { resolvePlainName } = require('./resolver');
 const {
   getResultsDate,
   getWeekStart,
@@ -28,6 +29,7 @@ const client = new Client({
   intents: [
     GatewayIntentBits.Guilds,
     GatewayIntentBits.GuildMessages,
+    GatewayIntentBits.GuildMembers,
     GatewayIntentBits.MessageContent,
   ],
 });
@@ -158,14 +160,30 @@ client.on('messageCreate', async (message) => {
   if (!parsed) return;
 
   const resultsDate = getResultsDate(message.createdAt, TIMEZONE);
+  let recordedCount = 0;
 
-  for (const { score, userIds } of parsed) {
-    for (const userId of userIds) {
+  for (const { score, userIds, plainNames } of parsed) {
+    const resolvedIds = new Set(userIds);
+
+    for (const name of plainNames || []) {
+      const id = await resolvePlainName(message.guild, name);
+      if (id) {
+        resolvedIds.add(id);
+      } else {
+        console.warn(
+          `Could not resolve unlinked name "@${name}" in Wordle message for ${resultsDate}. ` +
+            `Add it to ALIASES_JSON (see .env.example) to fix this permanently.`
+        );
+      }
+    }
+
+    for (const userId of resolvedIds) {
       recordScore(resultsDate, userId, score);
+      recordedCount += 1;
     }
   }
 
-  console.log(`Recorded ${parsed.reduce((n, p) => n + p.userIds.length, 0)} score(s) for ${resultsDate}`);
+  console.log(`Recorded ${recordedCount} score(s) for ${resultsDate}`);
 });
 
 client.login(TOKEN);
