@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Settings>
+    <version value="34" />
+    <configSource>SMC_AUTO</configSource>
+    <graphics>
+        <Tessellation value="2" />
+        <LodScale value="1.000000" />
+        <PedLodBias value="0.200000" />
+        <VehicleLodBias value="0.150000" />
+        <ShadowQuality value="3" />
+        <ReflectionQuality value="3" />
+        <SSAOType value="0" />
+        <AnisotropicFiltering value="16" />
+        <ResScalingType value="4" />
+        <SamplingMode value="0" />
+        <TextureQuality value="2" />
+        <ParticleQuality value="3" />
+        <WaterQuality value="3" />
+        <GrassQuality value="3" />
+        <ShaderQuality value="2" />
+        <Shadow_SoftShadows value="3" />
+        <UltraShadows_Enabled value="true" />
+        <Shadow_ParticleShadows value="true" />
+        <Shadow_Distance value="2.000000" />
+        <Shadow_LongShadows value="true" />
+        <Shadow_SplitZStart value="0.930000" />
+        <Shadow_SplitZEnd value="0.890000" />
+        <Shadow_aircraftExpWeight value="0.990000" />
+        <Shadow_DisableScreenSizeCheck value="false" />
+        <Reflection_MipBlur value="true" />
+        <AAType value="2" />
+        <TAA_Quality value="1" />
+        <TAA_SharpenIntensity value="1.000000" />
+        <fsrQuality value="2" />
+        <fsrSharpen value="0.200000" />
+        <fsr3Quality value="2" />
+        <fsr3Sharpen value="0.800000" />
+        <dlssQuality value="3" />
+        <dlssSharpen value="0.800000" />
+        <Lighting_FogVolumes value="true" />
+        <Shader_SSA value="true" />
+        <CityDensity value="1.000000" />
+        <PedVarietyMultiplier value="1.000000" />
+        <VehicleVarietyMultiplier value="1.000000" />
+        <VehicleHeadlightDistanceMultiplier value="1.000000" />
+        <PostFX value="3" />
+        <DoF value="2" />
+        <HdStreamingInFlight value="true" />
+        <MaxLodScale value="1.000000" />
+        <MotionBlurStrength value="1.000000" />
+        <VehicleDamageCacheSize value="80" />
+        <VehicleDamageTextureSize value="128" />
+        <PedOverlayTextureSize value="512" />
+        <PedOverlayCloseUpTextureSize value="1024" />
+        <HDTextureSwapsPerFrame value="100" />
+        <LensFlare_HalfRes value="false" />
+        <LensArtefacts_HalfRes value="false" />
+        <Raytracing_Enabled value="true" />
+        <Raytracing_StaticBvhEnabled value="true" />
+        <Raytracing_StaticBvhRadius value="512.000000" />
+        <Raytracing_StaticBvhAngularThreshold value="0.500000" />
+        <Raytracing_DynamicBvhEnabled value="true" />
+        <Raytracing_DynamicBvhRadius value="128.000000" />
+        <Raytracing_DynamicBvhAngularThreshold value="1.000000" />
+        <Raytracing_HDVehicleBvhRadius value="32.000000" />
+        <Raytracing_VehicleBvhRadius value="512.000000" />
+        <Raytracing_TreeBvhEnabled value="true" />
+        <Raytracing_TreeBvhRadius value="512.000000" />
+        <Raytracing_TreeBvhAngularThreshold value="1.000000" />
+        <Raytracing_TreeBvhAnimRadius value="64.000000" />
+        <Raytracing_TreeBvhAnimSSThreshold value="0.200000" />
+        <Raytracing_TreeBvhAxisSSThreshold value="0.030000" />
+        <Raytracing_GrassBvhEnabled value="true" />
+        <Raytracing_GrassBvhRadius value="96.000000" />
+        <Raytracing_GrassBvhAngularThreshold value="3.000000" />
+        <Raytracing_GrassBvhDensity value="1.750000" />
+        <DeferredReflectionsEnabled value="true" />
+        <DeferredCubeReflectionsEnabled value="true" />
+        <DeferredWaterReflectionsEnabled value="true" />
+        <DeferredMirrorReflectionsEnabled value="true" />
+        <DeferredCubeReflectionsComputeEnabled value="true" />
+        <DeferredWaterReflectionsComputeEnabled value="true" />
+        <DeferredMirrorReflectionsComputeEnabled value="true" />
+        <RTShadows_Enabled value="true" />
+        <RTShadows_Quality value="3" />
+        <RTAmbientOcclusion_Enabled value="true" />
+        <RTAmbientOcclusion_Quality value="3" />
+        <RTReflection_Enabled value="true" />
+        <RTReflection_Quality value="3" />
+        <RTIndirectDiffuse_Enabled value="true" />
+        <RTIndirectDiffuse_Quality value="3" />
+        <RTCharacterShadow_Enabled value="true" />
+        <RTApplyAOToFillLights value="true" />
+        <RTIndirectDiffuse_SecondBounce_Enabled value="false" />
+        <PlayerHeadlightShadowsQuality value="3" />
+        <NetPlayerHeadlightsCastShadows value="true" />
+        <AllVehicleHeadlightShadowsQuality value="3" />
+    </graphics>
+    <system>
+        <numBytesPerReplayBlock value="9000000" />
+        <numReplayBlocks value="36" />
+        <maxSizeOfStreamingReplay value="1024" />
+        <maxFileStoreSize value="65536" />
+        <forceSingleStepPhysics value="false" />
+    </system>
+    <audio>
+        <Audio3d value="false" />
+    </audio>
+    <video>
+        <AdapterIndex value="0" />
+        <OutputIndex value="0" />
+        <ScreenWidth value="3840" />
+        <ScreenHeight value="2160" />
+        <RefreshRate value="60" />
+        <Windowed value="3" />
+        <VSync value="0" />
+        <PauseOnFocusLoss value="1" />
+        <AspectRatio value="0" />
+        <ReflexMode value="1" />
+        <FrameLimit value="0" />
+    </video>
+    <VideoCardDescription>NVIDIA GeForce RTX 4090</VideoCardDescription>
+    <CPUDescription>AMD Ryzen 9 7950X3D 16-Core Processor          </CPUDescription>
+    <Presets>
+        <PresetLevel value="0" />
+        <BVHQuality value="1" />
+        <RTShadowQuality value="3" />
+        <RTReflectionQuality value="3" />
+        <RTDynamicQuality value="1" />
+        <RTStaticQuality value="1" />
+        <RTVehicleQuality value="1" />
+        <RTTreeQuality value="1" />
+        <RTGrassQuality value="1" />
+        <RTAOQuality value="3" />
+        <RTGIQuality value="3" />
+        <LightingQuality value="3" />
+        <PostFXQuality value="3" />
+        <ReflectionQuality value="3" />
+    </Presets>
+</Settings>

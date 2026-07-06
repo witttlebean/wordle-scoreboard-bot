@@ -1,0 +1,92 @@
+[2025-04-20 18:33:46.453] [DISPLAY] [Main ] [launcher] Opening log file.
+[2025-04-20 18:33:46.462] [DISPLAY] [Main ] [main] Command line: "C:\Program Files\Rockstar Games\Launcher\Launcher.exe" -skipPatcherCheck -xboxpcTitleId=1815914144 -xboxpcLocation="C:\XboxGames\Grand Theft Auto V Enhanced\Content" -rlrosdomainenv=prod @args.txt
+[2025-04-20 18:33:46.462] [DISPLAY] [Main ] [main] P4 Version: 
+[2025-04-20 18:33:46.462] [DISPLAY] [Main ] [main] RGL Branch: release_feature_microsoft
+[2025-04-20 18:33:46.462] [DISPLAY] [Main ] [fileutils] Checking version: C:\Program Files\Rockstar Games\Launcher\Launcher.exe
+[2025-04-20 18:33:46.463] [DISPLAY] [Main ] [main] Version: 1.0.102.2405
+[2025-04-20 18:33:46.463] [DISPLAY] [Main ] [main] Parameters:
+[2025-04-20 18:33:46.463] [DISPLAY] [Main ] [main]     C:\Program Files\Rockstar Games\Launcher\Launcher.exe
+[2025-04-20 18:33:46.463] [DISPLAY] [Main ] [main]     -skipPatcherCheck
+[2025-04-20 18:33:46.463] [DISPLAY] [Main ] [main]     -xboxpcTitleId=1815914144
+[2025-04-20 18:33:46.463] [DISPLAY] [Main ] [main]     -xboxpcLocation=C:\XboxGames\Grand Theft Auto V Enhanced\Content
+[2025-04-20 18:33:46.463] [DISPLAY] [Main ] [main]     -rlrosdomainenv=prod
+[2025-04-20 18:33:46.463] [DISPLAY] [Main ] [main]     @args.txt
+[2025-04-20 18:33:46.463] [DISPLAY] [Main ] [main] Initial Working Directory: C:\Program Files\WindowsApps\RockstarGamesInc.GTAVEnhanced_1.0.3.0_x64__k2ss7vbb13xte
+[2025-04-20 18:33:46.463] [DISPLAY] [Main ] [main] Working directory: C:\Program Files\Rockstar Games\Launcher
+[2025-04-20 18:33:46.488] [DISPLAY] [Main ] [packfile] Initialize 'Launcher.rpf' - succeeded
+[2025-04-20 18:33:46.489] [DISPLAY] [Main ] [localisation] Language updated to: 0
+[2025-04-20 18:33:46.535] [DISPLAY] [Main ] [external] Creating Xbox PC min mode launch
+[2025-04-20 18:33:46.535] [DISPLAY] [Main ] [external] Xbox PC Title Id: 0x6c3ca6a0
+[2025-04-20 18:33:46.535] [DISPLAY] [Main ] [external] Xbox PC Location: C:\XboxGames\Grand Theft Auto V Enhanced\Content
+[2025-04-20 18:33:46.536] [DISPLAY] [Main ] [metadatamanager] Read external Xbox PC metadata: gta5_gen9
+[2025-04-20 18:33:46.536] [DISPLAY] [Main ] [external] App: gta5_gen9
+[2025-04-20 18:33:46.548] [DISPLAY] [Main ] [subsystem] Init phase 1
+[2025-04-20 18:33:46.556] [DISPLAY] [Main ] [titlestorage] Installed titles:
+[2025-04-20 18:33:46.556] [DISPLAY] [Main ] [titlestorage]  Title                             Progress               Version              Location                                                    
+[2025-04-20 18:33:46.569] [DISPLAY] [Main ] [fileutils] Checking version: C:\Program Files\Rockstar Games\Social Club\socialclub.dll
+[2025-04-20 18:33:46.631] [DISPLAY] [Main ] [fileutils] Checking version: C:\Program Files\Rockstar Games\Launcher\RockstarService.exe
+[2025-04-20 18:33:46.631] [DISPLAY] [Main ] [svc] Service version: 1.0.102.2405 (1.0.102.2405)
+[2025-04-20 18:33:46.669] [DISPLAY] [Main ] [subsystem] Initializing group 0...
+[2025-04-20 18:33:46.669] [DISPLAY] [Main ] [subsystem] Init phase 2
+[2025-04-20 18:33:46.669] [DISPLAY] [Main ] [subsystem] Starting systems...
+[2025-04-20 18:33:46.669] [DISPLAY] [Main ] [subsystem] Starting diag...
+[2025-04-20 18:33:46.669] [DISPLAY] [Main ] [fileutils] Checking local versions...
+[2025-04-20 18:33:46.669] [DISPLAY] [Main ] [fileutils] Checking version: C:\Program Files\Rockstar Games\Social Club\socialclub.dll
+[2025-04-20 18:33:46.669] [DISPLAY] [Main ] [fileutils] Checking RGL version...
+[2025-04-20 18:33:46.669] [DISPLAY] [Main ] [fileutils] Version: 2.4.0.62 | 1.0.102.2405 | FFP
+[2025-04-20 18:33:46.669] [DISPLAY] [Main ] [subsystem] Starting net...
+[2025-04-20 18:33:46.676] [DISPLAY] [Main ] [subsystem] Assigning pools...
+[2025-04-20 18:33:46.676] [DISPLAY] [Main ] [subsystem] Initializing engine...
+[2025-04-20 18:33:46.677] [DISPLAY] [Main ] [subsystem] Initializing group 1...
+[2025-04-20 18:33:46.684] [DISPLAY] [Workr] [selfupdate] Up-to-date.
+[2025-04-20 18:33:46.988] [DISPLAY] [Main ] [systemtray] System tray: enabled
+[2025-04-20 18:33:47.009] [DISPLAY] [Main ] [launcher] Passed check: majorVersion(10.0.26100) >= 10
+[2025-04-20 18:33:47.194] [DISPLAY] [bgsvc] [svc] Received response from service.
+[2025-04-20 18:33:47.231] [DISPLAY] [Workr] [idownloader] Starting download of 'https://gamedownloads-rockstargames-com.akamaized.net/public/launcher_online_config.xml'
+[2025-04-20 18:33:47.342] [DISPLAY] [Workr] [idownloader] Completed download of 'https://gamedownloads-rockstargames-com.akamaized.net/public/launcher_online_config.xml' (status: 0/200)
+[2025-04-20 18:33:47.342] [DISPLAY] [Workr] [titlemanager] Downloading title list...
+[2025-04-20 18:33:47.342] [DISPLAY] [Workr] [titlemanager] Downloading default title list (SCS)...
+[2025-04-20 18:33:47.342] [DISPLAY] [Workr] [idownloader] Starting download of 'https://rgl-prod.ros.rockstargames.com/launcher/11/LauncherServices/App.asmx/GetDefaultApps?accessToken='
+[2025-04-20 18:33:47.608] [DISPLAY] [Workr] [idownloader] Completed download of 'https://rgl-prod.ros.rockstargames.com/launcher/11/LauncherServices/App.asmx/GetDefaultApps?accessToken=' (status: 0/200)
+[2025-04-20 18:33:47.608] [DISPLAY] [Workr] [titlemanager] Title list updated.
+[2025-04-20 18:33:47.608] [DISPLAY] [Workr] [launcher] Checking for self-update...
+[2025-04-20 18:33:47.617] [DISPLAY] [Workr] [idownloader] Starting download of 'https://rgl-prod.ros.rockstargames.com/launcher/11/LauncherServices/App.asmx/GetBuildManifestFullNoAuth?branchAccessToken=BRANCHACCESS token="J38FjzYQ/E4Uz6P36r4GWqgekn5Iq1mUnh1d2qEqmVAbQ7afYqDMiwxUDttaiYNzFmf1pP92I/7+1eOTaFdH8udgp+Sxag9lStvurhCjSFw=",signature="V2fEkH2JGMA2bXeZl6KOPdIbFjfGnTIAsXjO0+PsMy0="'
+[2025-04-20 18:33:47.983] [DISPLAY] [Workr] [idownloader] Completed download of 'https://rgl-prod.ros.rockstargames.com/launcher/11/LauncherServices/App.asmx/GetBuildManifestFullNoAuth?branchAccessToken=BRANCHACCESS token="J38FjzYQ/E4Uz6P36r4GWqgekn5Iq1mUnh1d2qEqmVAbQ7afYqDMiwxUDttaiYNzFmf1pP92I/7+1eOTaFdH8udgp+Sxag9lStvurhCjSFw=",signature="V2fEkH2JGMA2bXeZl6KOPdIbFjfGnTIAsXjO0+PsMy0="' (status: 0/200)
+[2025-04-20 18:33:47.984] [DISPLAY] [Workr] [statuschecker] Title Rockstar Games Launcher: 0.0 KB / 238.91 MB
+[2025-04-20 18:33:47.984] [DISPLAY] [Workr] [selfupdate] Updating launcher...
+[2025-04-20 18:33:49.875] [DISPLAY] [Admin] [idownloader] Starting download of 'https://rgl-prod.ros.rockstargames.com/launcher/11/LauncherServices/App.asmx/RetrieveFileChunkNoAuthMulti'
+[2025-04-20 18:33:50.235] [DISPLAY] [Admin] [idownloader] Completed download of 'https://rgl-prod.ros.rockstargames.com/launcher/11/LauncherServices/App.asmx/RetrieveFileChunkNoAuthMulti' (status: 0/200)
+[2025-04-20 18:33:52.427] [DISPLAY] [Workr] [downloadprogress] Dl: D|173675776|2|13|0|0
+[2025-04-20 18:33:52.433] [DISPLAY] [Workr] [titleupdater] Launcher needs to restart to be made up-to-date.
+[2025-04-20 18:33:52.433] [DISPLAY] [Workr] [titleupdater] Update of Rockstar Games Launcher succeeded; needs restart to complete.
+[2025-04-20 18:33:52.437] [DISPLAY] [Workr] [selfupdate] Applying downloaded self-update...
+[2025-04-20 18:33:52.437] [DISPLAY] [Workr] [fileutils] Checking version: C:\Program Files\Rockstar Games\Launcher\Launcher.exe.swap
+[2025-04-20 18:33:52.437] [DISPLAY] [Workr] [fileutils] No version info: C:\Program Files\Rockstar Games\Launcher\Launcher.exe.swap
+[2025-04-20 18:33:52.437] [DISPLAY] [Workr] [title] Swap file for Rockstar Games Launcher not found during self update in C:\Program Files\Rockstar Games\Launcher\Launcher.exe.swap
+[2025-04-20 18:33:52.437] [DISPLAY] [Workr] [fileutils] Checking version: C:\Program Files\Rockstar Games\Launcher\Launcher.exe.swap
+[2025-04-20 18:33:52.438] [DISPLAY] [Workr] [fileutils] No version info: C:\Program Files\Rockstar Games\Launcher\Launcher.exe.swap
+[2025-04-20 18:33:52.458] [DISPLAY] [Workr] [titlemanager] Installed launcher version in registry updated: 1.0.102.2405 -> 1.0.102.2423
+[2025-04-20 18:33:52.458] [DISPLAY] [Workr] [title] Updated version [mv] for title Rockstar Games Launcher : 1.0.102.2423
+[2025-04-20 18:33:52.886] [DISPLAY] [Workr] [fileutils] Checking version: C:\Program Files\Rockstar Games\Launcher\Launcher.exe
+[2025-04-20 18:33:52.886] [DISPLAY] [Workr] [title] Current version for title [pv] Rockstar Games Launcher : 1.0.102.2405
+[2025-04-20 18:33:52.908] [DISPLAY] [Workr] [titlemanager] Installed launcher version in registry updated: 1.0.102.2423 -> 1.0.102.2405
+[2025-04-20 18:33:52.995] [WARNING] [bgsvc] [svc_transactionqueue] Transaction failed: 71
+[2025-04-20 18:33:53.007] [ ERROR ] [Workr] [svc_chunk] Failed to delete: C:\Program Files\Rockstar Games\Launcher\RockstarService.exe.old
+[2025-04-20 18:33:53.028] [WARNING] [bgsvc] [svc_transactionqueue] Transaction failed: 72
+[2025-04-20 18:33:53.041] [ ERROR ] [Workr] [svc_chunk] Failed to delete: C:\Program Files\Rockstar Games\Launcher\Launcher.exe.old
+[2025-04-20 18:33:54.006] [DISPLAY] [Workr] [fileutils] Checking version: C:\Program Files\Rockstar Games\Launcher\Launcher.exe.swap
+[2025-04-20 18:33:54.006] [DISPLAY] [Workr] [fileutils] No version info: C:\Program Files\Rockstar Games\Launcher\Launcher.exe.swap
+[2025-04-20 18:33:54.006] [DISPLAY] [Workr] [title] Swap file for Rockstar Games Launcher not found during self update in C:\Program Files\Rockstar Games\Launcher\Launcher.exe.swap
+[2025-04-20 18:33:54.006] [DISPLAY] [Workr] [fileutils] Checking version: C:\Program Files\Rockstar Games\Launcher\Launcher.exe.swap
+[2025-04-20 18:33:54.006] [DISPLAY] [Workr] [fileutils] No version info: C:\Program Files\Rockstar Games\Launcher\Launcher.exe.swap
+[2025-04-20 18:33:54.028] [DISPLAY] [Workr] [titlemanager] Installed launcher version in registry updated: 1.0.102.2405 -> 1.0.102.2423
+[2025-04-20 18:33:54.028] [DISPLAY] [Workr] [title] Updated version [mv] for title Rockstar Games Launcher : 1.0.102.2423
+[2025-04-20 18:33:54.226] [DISPLAY] [Workr] [selfupdate] Self-update applied, need to restart.
+[2025-04-20 18:33:54.245] [DISPLAY] [Workr] [packfile] Initialize 'Launcher.rpf' - succeeded
+[2025-04-20 18:33:54.245] [DISPLAY] [Workr] [launcher] Restarting to apply self-update...
+[2025-04-20 18:33:54.245] [DISPLAY] [Workr] [lifecycle] Setting to restart after exit.
+[2025-04-20 18:33:54.245] [DISPLAY] [Workr] [launcher] Shutdown requested! Forced: false
+[2025-04-20 18:33:54.245] [DISPLAY] [Workr] [launcher] Completed Social Club Pre-initialization tasks
+[2025-04-20 18:33:54.262] [DISPLAY] [Main ] [launcher] StartShutdown - Now in progress
+[2025-04-20 18:33:54.641] [DISPLAY] [Main ] [app] Application quit requested (exit code: 0)
+[2025-04-20 18:33:54.675] [DISPLAY] [Main ] [svc] Stopping the background service.

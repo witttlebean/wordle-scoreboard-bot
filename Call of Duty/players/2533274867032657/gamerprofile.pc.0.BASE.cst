@@ -1,0 +1,239 @@
+0
+
+
+//
+// Accessibility
+
+// Adjusts the text chat background opacity
+TextChat background opacity@0 = 0.200000 // 0.000000 to 1.000000
+
+
+//
+// Accounts
+
+
+//
+// Audio
+
+// Adjusts microphone volume
+MicrophoneVolume@0 = 4.000000 // 0.000000 to 4.000000
+
+// Adjusts minimum volume threshold before activating your microphone
+MicThreshold@0 = 2072.430176 // 0.000000 to 65536.000000
+
+// Sets whether audio should be muted when the game window is out of focus
+MuteAudioWhileOutOfFocus@0 = false
+
+// On for muted tinnitus sound
+AltShellShock@0 = false
+
+// On for Audio Wheel active
+AudioWheelActive@0 = true
+
+// Adjusts the volume of the cinematic music
+CinematicVolume@0 = 1.000000 // 0.000000 to 1.000000
+
+// Adjusts the volume of the sound effects
+EffectsVolume@0 = 1.000000 // 0.000000 to 1.000000
+
+// Adjusts the volume of hit markers
+HitMarkersVolume@0 = 1.000000 // 0.000000 to 1.000000
+
+// Adjusts the volume of licensed content
+LicensedContentVolume@0 = 1.000000 // 0.000000 to 1.000000
+
+// Adjusts overall volume of the game
+Volume@0 = 1.000000 // 0.000000 to 1.000000
+
+// Audio mix
+AudioMix@0 = 1 // 0 to 9
+
+// On for Mono Audio, Off for Stereo Audio
+MonoSound@0 = false
+
+// Percentage of mono when Mono Sound is On
+MonoSoundAmount@0 = 100.000000 // 0.000000 to 100.000000
+
+// Adjusts the volume of the music
+MusicVolume@0 = 1.000000 // 0.000000 to 1.000000
+
+// Adjusts the volume of audio within Telescope (MOTD)
+TelescopeVolume@0 = 1.000000 // 0.000000 to 1.000000
+
+// Microphone device used for voice chat
+VoiceInputDevice@0 = Default Communication Device // one of Default Communication Device, Default System Device
+
+// Apply effect on voice in chat
+VoiceChatEffect@0 = mw_default // one of mw_default, mw, mw_classic
+
+// Adjusts the volume for character dialogues and announcer voices
+VoiceVolume@0 = 1.000000 // 0.000000 to 1.000000
+
+// Adjusts the volume of war tracks
+WarTracksVolume@0 = 1.000000 // 0.000000 to 1.000000
+
+// Enable voice chat
+VoiceChat@0 = true
+
+// Adjusts volume of other player voices in voice chat
+VoiceChatVolume@0 = 1.200000 // 0.000000 to 4.000000
+
+
+//
+// Controller Advanced
+
+// Adjusts the time at max stick deflection before sprinting. In milliseconds.
+Sprint Assist Delay Gamepad@0 = 400 // 0 to 12750
+
+
+//
+// Display
+
+// Adjusts the brightness of the game
+Brightness@0 = 0.250000 // -0.990000 to 0.990000
+
+// Target refresh rate
+TargetRefreshRate@0 = 120 Hz // one of 60 Hz, 120 Hz
+
+
+//
+// Gameplay
+
+// 1st Person Field of View
+Fov@0 = 110.000000 // 60.000000 to 120.000000
+
+// 3rd Person Field of View
+ThirdPersonFov@0 = 80.690002 // 70.000000 to 90.000000
+
+// Scale view with Field of view when Aiming Down Sights
+ADSFovScaling@0 = false
+
+
+//
+// Graphics
+
+// HDR Gamma
+HDRGamma@0 = 1.123000 // 0.500000 to 1.500000
+
+// HDR Max
+HDRMaxLum@0 = 0.700000 // 0.600000 to 1.000000
+
+// HDR Min
+HDRMinLum@0 = 0.040000 // 0.000000 to 0.200000
+
+
+//
+// Interface
+
+// Adjust Heads-up display maximum horizontal bound
+HUDHorizBound@0 = 1.000000 // 0.000000 to 1.000000
+
+// Adjust Heads-up display maximum vertical bound
+HUDVertBound@0 = 1.000000 // 0.000000 to 1.000000
+
+
+//
+// KBM Advanced
+
+// Adjusts the time required for moving before sprinting is auto activated. In milliseconds.
+Sprint Assist Delay KBM@0 = 400 // 0 to 12750
+
+
+//
+// Mouse and Gamepad
+
+// Multiplies mouse sensitivity when aiming down sights with 2x zoom scopes
+ADS2xZoomSensitivity@0 = 1.000000 // 0.100000 to 4.000000
+
+// Multiplies mouse sensitivity when aiming down sights with 4x zoom scopes
+ADS4xZoomSensitivity@0 = 1.000000 // 0.100000 to 4.000000
+
+// Multiplies mouse sensitivity when aiming down sights with 6x zoom scopes
+ADS6xZoomSensitivity@0 = 1.000000 // 0.100000 to 4.000000
+
+// Multiplies mouse sensitivity when aiming down sights with 8x zoom scopes
+ADS8xZoomSensitivity@0 = 1.000000 // 0.100000 to 4.000000
+
+// Multiplies mouse sensitivity when aiming down sights with high zoom scopes
+ADSHighZoomSensitivity@0 = 1.000000 // 0.100000 to 4.000000
+
+// Multiplies mouse sensitivity when aiming down sights with low zoom scopes
+ADSLowZoomSensitivity@0 = 1.000000 // 0.100000 to 4.000000
+
+// Multiplies mouse sensitivity when aiming down sights with any scope
+ADSSensitivity@0 = 1.000000 // 0.100000 to 4.000000
+
+// Adjust timing for the ADS multipliers above to take effect when aiming down sight
+ADSTimingSensitivity@0 = 1 // 0 to 2
+
+// Multiplies mouse sensitivity when piloting air vehicles
+MouseAirSensitivityMultiplier@0 = 1.000000 // 0.100000 to 4.000000
+
+// Free look
+FreeLook@0 = true
+
+// Restricts the Input Device used for Aiming. False for Mouse, True for Gamepad Stick
+EnableGamepad@0 = false
+
+// Multiplies mouse sensitivity when holding breath while aiming down sights
+ADSHoldBreathSensitivity@0 = 1.000000 // 0.100000 to 4.000000
+
+// Invert vertical aim with a mouse while on foot
+MouseInvertPitch@0 = false
+
+// Invert vertical aim with a mouse while in an air vehicle
+MouseFlyingVehicleInvertPitch@0 = false
+
+// Invert vertical aim with a mouse while in a land vehicle
+MouseGroundVehicleInvertPitch@0 = false
+
+// Multiplies mouse sensitivity when driving land vehicles
+MouseLandSensitivityMultiplier@0 = 1.000000 // 0.100000 to 4.000000
+
+// Multiplies mouse sensitivity when selecting a target on a map through a streak
+MouseInGameTabletSensitivity@0 = 1.000000 // 0.100000 to 2.000000
+
+// Adjusts mouse acceleration
+MouseAcceleration@0 = 0.000000 // 0.000000 to 10.000000
+
+// Adjusts mouse filtering
+MouseFilter@0 = 0.000000 // 0.000000 to 10.000000
+
+// Adjust coefficient for monitor distance ADS mouse sensitivity scaling
+MouseMonitorDistanceCoeff@0 = 1.333333 // 0.000000 to 5.000000
+
+// Adjusts mouse smoothing
+MouseSmoothing@0 = false
+
+// Multiplies mouse sensitivity when using tactical ADS
+TacticalAdsMouseSensitivityMultiplier@0 = 1.000000 // 0.100000 to 4.000000
+
+// Adjusts mouse sensitivity while in an air vehicle for both axes
+MouseFlightHorizontalSensibility@0 = 40.000000 // 0.010000 to 100.000000
+
+// Multiplies mouse sensitivity while in an air vehicle on vertical axis only
+MouseFlightVerticalSensibility@0 = 1.000000 // 0.010000 to 4.000000
+
+// Adjusts mouse sensitivity for both axes
+MouseHorizontalSensibility@0 = 12.450000 // 0.010000 to 100.000000
+
+// Multiplies mouse sensitivity on vertical axis only
+MouseVerticalSensibility@0 = 1.000000 // 0.010000 to 4.000000
+
+
+//
+// System
+
+// Stream limit in MB
+HTTPStreamLimitMBytes@0 = 1024
+
+// Stream limit enabled
+HTTPStreamUsageLimit@0 = false
+
+
+//
+// Touch
+
+// Adjust timing for the ADS multipliers above to take effect when aiming down sight
+ADSTimingSensitivityTouch@0 = 1 // 0 to 2
+

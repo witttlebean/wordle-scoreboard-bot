@@ -1,0 +1,182 @@
+[2025-04-20 19:15:53.443] [DISPLAY] [Main ] [fileutils] Checking version: C:\Program Files\Rockstar Games\Launcher\Launcher.exe
+[2025-04-20 19:15:53.472] [DISPLAY] [Main ] [dx12] Retrieving D3D12 graphics info
+[2025-04-20 19:15:53.837] [DISPLAY] [Main ] [launcher] Opening log file.
+[2025-04-20 19:15:53.850] [DISPLAY] [Main ] [main] Command line: "C:\Program Files\Rockstar Games\Launcher\Launcher.exe" -skipPatcherCheck -xboxpcTitleId=2101636955 -xboxpcLocation="C:\XboxGames\Grand Theft Auto V Legacy\Content" -rlrosdomainenv=prod @args.txt
+[2025-04-20 19:15:53.850] [DISPLAY] [Main ] [main] P4 Version: 
+[2025-04-20 19:15:53.850] [DISPLAY] [Main ] [main] RGL Branch: release_feature_microsoft
+[2025-04-20 19:15:53.850] [DISPLAY] [Main ] [main] Version: 1.0.102.2423
+[2025-04-20 19:15:53.850] [DISPLAY] [Main ] [main] Parameters:
+[2025-04-20 19:15:53.850] [DISPLAY] [Main ] [main]     C:\Program Files\Rockstar Games\Launcher\Launcher.exe
+[2025-04-20 19:15:53.850] [DISPLAY] [Main ] [main]     -skipPatcherCheck
+[2025-04-20 19:15:53.850] [DISPLAY] [Main ] [main]     -xboxpcTitleId=2101636955
+[2025-04-20 19:15:53.850] [DISPLAY] [Main ] [main]     -xboxpcLocation=C:\XboxGames\Grand Theft Auto V Legacy\Content
+[2025-04-20 19:15:53.850] [DISPLAY] [Main ] [main]     -rlrosdomainenv=prod
+[2025-04-20 19:15:53.850] [DISPLAY] [Main ] [main]     @args.txt
+[2025-04-20 19:15:53.850] [DISPLAY] [Main ] [main] Initial Working Directory: C:\Program Files\WindowsApps\RockstarGamesInc.3605912C1822C_1.0.3.0_x64__k2ss7vbb13xte
+[2025-04-20 19:15:53.850] [DISPLAY] [Main ] [main] Working directory: C:\Program Files\Rockstar Games\Launcher
+[2025-04-20 19:15:53.867] [DISPLAY] [Main ] [packfile] Initialize 'Launcher.rpf' - succeeded
+[2025-04-20 19:15:53.867] [DISPLAY] [Main ] [localisation] Language updated to: 0
+[2025-04-20 19:15:53.906] [DISPLAY] [Main ] [external] Creating Xbox PC min mode launch
+[2025-04-20 19:15:53.906] [DISPLAY] [Main ] [external] Xbox PC Title Id: 0x7d446f5b
+[2025-04-20 19:15:53.906] [DISPLAY] [Main ] [external] Xbox PC Location: C:\XboxGames\Grand Theft Auto V Legacy\Content
+[2025-04-20 19:15:53.907] [DISPLAY] [Main ] [metadatamanager] Read external Xbox PC metadata: gta5
+[2025-04-20 19:15:53.907] [DISPLAY] [Main ] [external] App: gta5
+[2025-04-20 19:15:53.915] [ ERROR ] [Main ] [fileutils] Failed to delete directory: C:\Users\justi\OneDrive\Documents\Rockstar Games\GTAV Enhanced\User Music
+[2025-04-20 19:15:53.916] [DISPLAY] [Main ] [subsystem] Init phase 1
+[2025-04-20 19:15:53.922] [DISPLAY] [Main ] [titlestorage] Installed titles:
+[2025-04-20 19:15:53.922] [DISPLAY] [Main ] [titlestorage]  Title                             Progress               Version              Location                                                    
+[2025-04-20 19:15:53.933] [DISPLAY] [Main ] [fileutils] Checking version: C:\Program Files\Rockstar Games\Social Club\socialclub.dll
+[2025-04-20 19:15:53.982] [DISPLAY] [Main ] [fileutils] Checking version: C:\Program Files\Rockstar Games\Launcher\RockstarService.exe
+[2025-04-20 19:15:54.073] [DISPLAY] [Main ] [svc] Service version: 1.0.102.2423 (1.0.102.2423)
+[2025-04-20 19:15:54.193] [DISPLAY] [Main ] [subsystem] Initializing group 0...
+[2025-04-20 19:15:54.193] [DISPLAY] [Main ] [subsystem] Init phase 2
+[2025-04-20 19:15:54.193] [DISPLAY] [Main ] [subsystem] Starting systems...
+[2025-04-20 19:15:54.236] [DISPLAY] [Main ] [subsystem] Starting diag...
+[2025-04-20 19:15:54.236] [DISPLAY] [Main ] [fileutils] Checking local versions...
+[2025-04-20 19:15:54.236] [DISPLAY] [Main ] [fileutils] Checking version: C:\Program Files\Rockstar Games\Social Club\socialclub.dll
+[2025-04-20 19:15:54.236] [DISPLAY] [Main ] [fileutils] Checking RGL version...
+[2025-04-20 19:15:54.236] [DISPLAY] [Main ] [fileutils] Version: 2.4.0.71 | 1.0.102.2423 | FFP
+[2025-04-20 19:15:54.236] [DISPLAY] [Main ] [subsystem] Starting net...
+[2025-04-20 19:15:54.240] [DISPLAY] [Main ] [subsystem] Assigning pools...
+[2025-04-20 19:15:54.240] [DISPLAY] [Main ] [subsystem] Initializing engine...
+[2025-04-20 19:15:54.240] [DISPLAY] [Main ] [subsystem] Initializing group 1...
+[2025-04-20 19:15:54.258] [DISPLAY] [Workr] [selfupdate] Up-to-date.
+[2025-04-20 19:15:54.398] [DISPLAY] [Main ] [systemtray] System tray: enabled
+[2025-04-20 19:15:54.411] [DISPLAY] [Main ] [launcher] Passed check: majorVersion(10.0.26100) >= 10
+[2025-04-20 19:15:54.907] [DISPLAY] [bgsvc] [svc] Received response from service.
+[2025-04-20 19:15:54.925] [DISPLAY] [Workr] [idownloader] Starting download of 'https://gamedownloads-rockstargames-com.akamaized.net/public/launcher_online_config.xml'
+[2025-04-20 19:15:55.075] [DISPLAY] [Workr] [idownloader] Completed download of 'https://gamedownloads-rockstargames-com.akamaized.net/public/launcher_online_config.xml' (status: 0/200)
+[2025-04-20 19:15:55.075] [DISPLAY] [Workr] [titlemanager] Downloading title list...
+[2025-04-20 19:15:55.075] [DISPLAY] [Workr] [titlemanager] Downloading default title list (SCS)...
+[2025-04-20 19:15:55.075] [DISPLAY] [Workr] [idownloader] Starting download of 'https://rgl-prod.ros.rockstargames.com/launcher/11/LauncherServices/App.asmx/GetDefaultApps?accessToken='
+[2025-04-20 19:15:55.337] [DISPLAY] [Workr] [idownloader] Completed download of 'https://rgl-prod.ros.rockstargames.com/launcher/11/LauncherServices/App.asmx/GetDefaultApps?accessToken=' (status: 0/200)
+[2025-04-20 19:15:55.337] [DISPLAY] [Workr] [titlemanager] Title list updated.
+[2025-04-20 19:15:55.337] [DISPLAY] [Workr] [launcher] Checking for self-update...
+[2025-04-20 19:15:55.344] [DISPLAY] [Workr] [statuschecker] Title Rockstar Games Launcher: No update
+[2025-04-20 19:15:55.347] [DISPLAY] [Workr] [launcher] No self-update, continuing.
+[2025-04-20 19:15:55.347] [DISPLAY] [Workr] [launcher] Checking for prerequisite updates...
+[2025-04-20 19:15:55.347] [DISPLAY] [Workr] [fileutils] Checking version: C:\Program Files\Rockstar Games\Social Club\socialclub.dll
+[2025-04-20 19:15:55.347] [DISPLAY] [Workr] [fileutils] Checking version: C:\Program Files\Rockstar Games\Launcher\Redistributables\SocialClub\Social-Club-Setup.exe
+[2025-04-20 19:15:55.377] [DISPLAY] [Workr] [preqmanager] The Social Club version available matches that currently installed (both: 2.4.0.71)
+[2025-04-20 19:15:55.377] [DISPLAY] [Workr] [titleupdater] No prerequisites to install.
+[2025-04-20 19:15:55.377] [DISPLAY] [Workr] [launcher] Checking minimum SDK requirement
+[2025-04-20 19:15:55.377] [DISPLAY] [Workr] [fileutils] Checking version: C:\Program Files\Rockstar Games\Social Club\socialclub.dll
+[2025-04-20 19:15:55.379] [DISPLAY] [Workr] [launcher] Completed Social Club Pre-initialization tasks
+[2025-04-20 19:15:55.381] [DISPLAY] [Main ] [subsystem] Init phase 3
+[2025-04-20 19:15:55.640] [DISPLAY] [Main ] [subsystem] Initializing group 2...
+[2025-04-20 19:15:56.272] [DISPLAY] [Workr] [dx12] Retrieving D3D12 graphics info
+[2025-04-20 19:15:56.904] [DISPLAY] [Main ] [launcher] Social Club UI has started.
+[2025-04-20 19:15:56.904] [DISPLAY] [Main ] [fileutils] Checking version: C:\Program Files\Rockstar Games\Social Club\socialclub.dll
+[2025-04-20 19:15:56.904] [DISPLAY] [Admin] [external] Setting up xblpc title: gta5
+[2025-04-20 19:15:56.973] [DISPLAY] [Main ] [minmode] XboxPC language: en-US (mapped to: en-US)
+[2025-04-20 19:15:56.973] [DISPLAY] [Main ] [minmode] Overriding language from external game launch: en-US
+[2025-04-20 19:15:56.973] [DISPLAY] [Main ] [localisation] Language updated to: 0
+[2025-04-20 19:15:57.034] [DISPLAY] [Admin] [external] Successfully setup title
+[2025-04-20 19:15:57.041] [DISPLAY] [Main ] [external] Client is ready to attempt a launch.
+[2025-04-20 19:15:57.041] [DISPLAY] [Main ] [external] Frontend is ready to launch the title
+[2025-04-20 19:15:57.209] [DISPLAY] [Main ] [launcher] Time to start up: 3790 ms
+[2025-04-20 19:15:57.213] [DISPLAY] [Main ] [systemtray] System tray: enabled
+[2025-04-20 19:15:57.232] [DISPLAY] [Main ] [ui_window_controller] UiWindowController::SetContext: Invalid -> Auth
+[2025-04-20 19:15:57.232] [DISPLAY] [Main ] [ui_window_controller] UiWindowController::SetState: Invalid -> WaitForBrowser
+[2025-04-20 19:15:57.253] [DISPLAY] [Main ] [ui_window_controller] UiWindowController::SetState: WaitForBrowser -> WaitForWindow
+[2025-04-20 19:15:57.934] [DISPLAY] [Main ] [ui_window_controller] UiWindowController::SetState: WaitForWindow -> Active
+[2025-04-20 19:15:58.552] [DISPLAY] [Main ] [ui_window_controller] UiWindowController::SetState: Active -> WaitForBrowser
+[2025-04-20 19:15:58.552] [DISPLAY] [Main ] [ui_window_controller] UiWindowController::SetState: WaitForBrowser -> WaitForWindow
+[2025-04-20 19:15:58.552] [DISPLAY] [Main ] [ui_window_controller] UiWindowController::SetState: WaitForWindow -> Active
+[2025-04-20 19:16:00.135] [DISPLAY] [Main ] [ui_window_controller] UiWindowController::SetContext: Auth -> MainWindow
+[2025-04-20 19:16:00.135] [DISPLAY] [Main ] [ui_window_controller] UiWindowController::SetState: Active -> WaitForBrowser
+[2025-04-20 19:16:00.165] [DISPLAY] [Main ] [ui_mainwindow] Using DPI 144,144
+[2025-04-20 19:16:00.165] [DISPLAY] [Main ] [ui_mainwindow] Using UI Scale: 1.50
+[2025-04-20 19:16:00.165] [DISPLAY] [Main ] [ui_mainwindow] Using saved geometry: 960,594 (1920 x 900)
+[2025-04-20 19:16:00.170] [DISPLAY] [Main ] [launcher] Presence Event - Signed In
+[2025-04-20 19:16:00.170] [DISPLAY] [Main ] [launcher] User 'wittlebean' is now signed in
+[2025-04-20 19:16:00.192] [DISPLAY] [Main ] [launcher] Presence Event :: Went Online
+[2025-04-20 19:16:00.192] [DISPLAY] [Admin] [titlemanager] Downloading title list...
+[2025-04-20 19:16:00.192] [DISPLAY] [Main ] [scuicallbacks] Enabling Downloading
+[2025-04-20 19:16:00.192] [DISPLAY] [Main ] [ui_window_controller] UiWindowController::SetState: WaitForBrowser -> WaitForWindow
+[2025-04-20 19:16:00.192] [DISPLAY] [Main ] [ui_window_controller] UiWindowController::SetState: WaitForWindow -> Active
+[2025-04-20 19:16:00.198] [DISPLAY] [Admin] [titlemanager] Downloading title list (SCS)...
+[2025-04-20 19:16:00.406] [DISPLAY] [Main ] [launcher] Friend Event - Friends are Available
+[2025-04-20 19:16:00.674] [DISPLAY] [Main ] [scuicallbacks] Setting updated
+[2025-04-20 19:16:00.692] [DISPLAY] [Main ] [scuicallbacks] Launch requested by user: gta5, default
+[2025-04-20 19:16:00.692] [DISPLAY] [Main ] [external] Frontend is ready to launch the title
+[2025-04-20 19:16:00.692] [DISPLAY] [Main ] [external] Attempting external title launch...
+[2025-04-20 19:16:00.692] [DISPLAY] [Main ] [external_xboxpc] Attempting XboxPc launch. User is 'wittlebean'
+[2025-04-20 19:16:00.692] [DISPLAY] [Main ] [gamelaunch] Begin game launch: gta5
+[2025-04-20 19:16:00.692] [DISPLAY] [Main ] [gamelaunch] Flags: 2051
+[2025-04-20 19:16:00.692] [DISPLAY] [Main ] [gamelaunch] Path: C:\XboxGames\Grand Theft Auto V Legacy\Content
+[2025-04-20 19:16:00.704] [DISPLAY] [33840] [gamelaunch] Launch Folder: C:\XboxGames\Grand Theft Auto V Legacy\Content
+[2025-04-20 19:16:00.704] [DISPLAY] [33840] [gamelaunch] Launch Path: C:\XboxGames\Grand Theft Auto V Legacy\Content\GTA5.exe
+[2025-04-20 19:16:00.705] [DISPLAY] [33840] [fileutils] Checking version: C:\XboxGames\Grand Theft Auto V Legacy\Content\GTA5.exe
+[2025-04-20 19:16:00.705] [DISPLAY] [33840] [fileutils] No version info: C:\XboxGames\Grand Theft Auto V Legacy\Content\GTA5.exe
+[2025-04-20 19:16:00.706] [DISPLAY] [33840] [gamelaunch] RGL is up to date (current: 1.0.102.2423, minimum: 1.0.97.2200)
+[2025-04-20 19:16:00.706] [DISPLAY] [33840] [fileutils] Checking version: C:\XboxGames\Grand Theft Auto V Legacy\Content\GTA5.exe
+[2025-04-20 19:16:00.706] [DISPLAY] [33840] [fileutils] No version info: C:\XboxGames\Grand Theft Auto V Legacy\Content\GTA5.exe
+[2025-04-20 19:16:00.706] [WARNING] [33840] [gamelaunch] Unable to get game version. Assuming game up to date.
+[2025-04-20 19:16:00.706] [DISPLAY] [33840] [fileutils] Checking version: C:\Program Files\Rockstar Games\Social Club\socialclub.dll
+[2025-04-20 19:16:00.805] [DISPLAY] [Admin] [titlemanager] Title list updated.
+[2025-04-20 19:16:03.352] [DISPLAY] [Admin] [titlemanager] Downloading title list...
+[2025-04-20 19:16:03.352] [DISPLAY] [Admin] [titlemanager] Downloading title list (SCS)...
+[2025-04-20 19:16:03.792] [DISPLAY] [Admin] [titlemanager] Title list updated.
+[2025-04-20 19:16:05.810] [DISPLAY] [Main ] [cloudsaveop] Cloud Save sync requested for app 'gta5'
+[2025-04-20 19:16:05.826] [DISPLAY] [Main ] [cloudsaveop] Starting cloud save enabled check for app 'gta5'
+[2025-04-20 19:16:05.827] [DISPLAY] [Main ] [cloudsaveop] Received cloud saves enabled state for app 'gta5' = enabled
+[2025-04-20 19:16:05.827] [DISPLAY] [Main ] [cloudsaveop] Identifying potential cloud save conflicts for app 'gta5'
+[2025-04-20 19:16:06.128] [DISPLAY] [Main ] [cloudsaveop] Received modification list of cloud save files for title 'gta5'
+[2025-04-20 19:16:06.128] [DISPLAY] [Main ] [cloudsaveop] Retrieving conflict metadata for app 'gta5'
+[2025-04-20 19:16:06.145] [DISPLAY] [Main ] [cloudsaveop] Downloaded conflict metadata for app 'gta5'
+[2025-04-20 19:16:06.145] [DISPLAY] [Main ] [cloudsaveop] Posting updated files for app 'gta5'
+[2025-04-20 19:16:06.162] [DISPLAY] [Main ] [cloudsaveop] File uploading completed for app 'gta5'
+[2025-04-20 19:16:06.162] [DISPLAY] [Main ] [cloudsaveop] Getting update files for app 'gta5'
+[2025-04-20 19:16:06.178] [DISPLAY] [Main ] [cloudsaveop] File downloading completed for app 'gta5'
+[2025-04-20 19:16:06.178] [DISPLAY] [Main ] [cloudsaveop] Deleting updated files for app 'gta5'
+[2025-04-20 19:16:06.195] [DISPLAY] [Main ] [cloudsaveop] Files deletion completed for app 'gta5'
+[2025-04-20 19:16:06.195] [DISPLAY] [Main ] [cloudsaveop] Swapping updated files in place for app 'gta5'
+[2025-04-20 19:16:06.212] [DISPLAY] [Main ] [cloudsaveop] Finished syncing cloud saves for app 'gta5'
+[2025-04-20 19:16:06.264] [DISPLAY] [net4 ] [audio] Valid Audio Device: true
+[2025-04-20 19:16:07.282] [DISPLAY] [33840] [gamelaunch] Launching game...
+[2025-04-20 19:16:07.282] [DISPLAY] [33840] [gamelaunch]  Path: C:\XboxGames\Grand Theft Auto V Legacy\Content\GTA5_BE.exe
+[2025-04-20 19:16:07.282] [DISPLAY] [33840] [gamelaunch]  Command Line: "C:\XboxGames\Grand Theft Auto V Legacy\Content\GTA5_BE.exe" -skipPatcherCheck -rlrosdomainenv=prod @args.txt -enableCrashpad -scCommerceProvider=4 @commandline.txt -fromRGL -scDiscordClientId=356876176465199104 -rglLanguage=en-US
+[2025-04-20 19:16:07.282] [DISPLAY] [33840] [gamelaunch]  Working Directory: C:\XboxGames\Grand Theft Auto V Legacy\Content
+[2025-04-20 19:16:07.284] [DISPLAY] [33840] [gamelaunch] Launching game from Rockstar Xbox Helper
+[2025-04-20 19:16:07.550] [DISPLAY] [33840] [gamelaunch] Game launched from Rockstar Xbox Helper
+[2025-04-20 19:18:43.686] [DISPLAY] [Main ] [gamelaunch] Game restart requested for 'gta5'
+[2025-04-20 19:18:52.818] [WARNING] [33840] [gamelaunch] No game or BattlEye window exists for game tracking.
+[2025-04-20 19:18:52.818] [DISPLAY] [33840] [gamelaunch] Game exited with code 0x0 (0)
+[2025-04-20 19:18:52.837] [DISPLAY] [33840] [crashdetection] Game left no exit file.
+[2025-04-20 19:18:52.837] [DISPLAY] [33840] [crashdetection] Exit code 0x0 indicates a clean game shutdown
+[2025-04-20 19:18:53.379] [DISPLAY] [33840] [gamelaunch] Launch Folder: C:\XboxGames\Grand Theft Auto V Legacy\Content
+[2025-04-20 19:18:53.379] [DISPLAY] [33840] [gamelaunch] Launch Path: C:\XboxGames\Grand Theft Auto V Legacy\Content\GTA5.exe
+[2025-04-20 19:18:53.379] [DISPLAY] [33840] [fileutils] Checking version: C:\XboxGames\Grand Theft Auto V Legacy\Content\GTA5.exe
+[2025-04-20 19:18:53.380] [DISPLAY] [33840] [fileutils] No version info: C:\XboxGames\Grand Theft Auto V Legacy\Content\GTA5.exe
+[2025-04-20 19:18:53.380] [DISPLAY] [33840] [gamelaunch] RGL is up to date (current: 1.0.102.2423, minimum: 1.0.97.2200)
+[2025-04-20 19:18:53.380] [DISPLAY] [33840] [fileutils] Checking version: C:\XboxGames\Grand Theft Auto V Legacy\Content\GTA5.exe
+[2025-04-20 19:18:53.380] [DISPLAY] [33840] [fileutils] No version info: C:\XboxGames\Grand Theft Auto V Legacy\Content\GTA5.exe
+[2025-04-20 19:18:53.380] [WARNING] [33840] [gamelaunch] Unable to get game version. Assuming game up to date.
+[2025-04-20 19:18:53.380] [DISPLAY] [33840] [fileutils] Checking version: C:\Program Files\Rockstar Games\Social Club\socialclub.dll
+[2025-04-20 19:18:55.567] [DISPLAY] [net1 ] [audio] Valid Audio Device: true
+[2025-04-20 19:18:56.537] [DISPLAY] [33840] [gamelaunch] Launching game...
+[2025-04-20 19:18:56.537] [DISPLAY] [33840] [gamelaunch]  Path: C:\XboxGames\Grand Theft Auto V Legacy\Content\GTA5_BE.exe
+[2025-04-20 19:18:56.537] [DISPLAY] [33840] [gamelaunch]  Command Line: "C:\XboxGames\Grand Theft Auto V Legacy\Content\GTA5_BE.exe" -skipPatcherCheck -rlrosdomainenv=prod @args.txt -enableCrashpad -scCommerceProvider=4 @commandline.txt -fromRGL -scDiscordClientId=356876176465199104 -rglLanguage=en-US
+[2025-04-20 19:18:56.537] [DISPLAY] [33840] [gamelaunch]  Working Directory: C:\XboxGames\Grand Theft Auto V Legacy\Content
+[2025-04-20 19:18:56.541] [DISPLAY] [33840] [gamelaunch] Launching game from Rockstar Xbox Helper
+[2025-04-20 19:18:56.708] [DISPLAY] [33840] [gamelaunch] Game launched from Rockstar Xbox Helper
+[2025-04-20 19:23:56.794] [WARNING] [33840] [gamelaunch] 300 seconds elapsed and still no game window.
+[2025-04-20 19:23:56.794] [WARNING] [33840] [gamelaunch] No game or BattlEye window exists for game tracking.
+[2025-04-20 19:28:56.822] [WARNING] [33840] [gamelaunch] 300 seconds elapsed and still no game window.
+[2025-04-20 19:57:45.513] [DISPLAY] [Main ] [scuicallbacks] Terminate game requested
+[2025-04-20 19:57:45.513] [DISPLAY] [33840] [gamelaunch] Terminating game.
+[2025-04-20 19:57:45.513] [DISPLAY] [33840] [crashdetection] Game left no exit file.
+[2025-04-20 19:57:45.529] [DISPLAY] [Main ] [cloudsaveop] Cloud Save sync requested for app 'gta5'
+[2025-04-20 19:57:45.547] [DISPLAY] [Main ] [cloudsaveop] Starting cloud save enabled check for app 'gta5'
+[2025-04-20 19:57:45.547] [DISPLAY] [Main ] [cloudsaveop] Received cloud saves enabled state for app 'gta5' = enabled
+[2025-04-20 19:57:45.547] [DISPLAY] [Main ] [cloudsaveop] Identifying potential cloud save conflicts for app 'gta5'
+[2025-04-20 19:57:45.564] [DISPLAY] [Main ] [launcher] Shutdown requested! Forced: false
+[2025-04-20 19:57:45.564] [DISPLAY] [Main ] [launcher] Shutdown requested! Forced: false
+[2025-04-20 19:57:45.564] [ ERROR ] [Main ] [gla] Canceled during cloud sync
+[2025-04-20 19:57:45.667] [DISPLAY] [33840] [launcher] Shutdown requested! Forced: false
+[2025-04-20 19:57:45.668] [DISPLAY] [Main ] [launcher] StartShutdown - Now in progress
+[2025-04-20 19:57:45.810] [WARNING] [Main ] [worker] Not adding job (15) due to thread exiting
+[2025-04-20 19:57:45.828] [WARNING] [Main ] [worker] Not adding job (5) due to thread exiting
+[2025-04-20 19:57:46.329] [DISPLAY] [Main ] [app] Application quit requested (exit code: 0)
+[2025-04-20 19:57:46.370] [DISPLAY] [Main ] [svc] Stopping the background service.

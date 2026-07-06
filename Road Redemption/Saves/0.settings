@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PlayerSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <profileIndex>0</profileIndex>
+  <language>English</language>
+  <mouseXSensitivity>5</mouseXSensitivity>
+  <mouseYSensitivity>5</mouseYSensitivity>
+  <mouseInvertYAxis>false</mouseInvertYAxis>
+  <mouseAutoCenterCamera>false</mouseAutoCenterCamera>
+  <controllerXSensitivity>5</controllerXSensitivity>
+  <controllerYSensitivity>5</controllerYSensitivity>
+  <controllerInvertYAxis>false</controllerInvertYAxis>
+  <controllerAutoCenterCamera>true</controllerAutoCenterCamera>
+  <controllerRumble>true</controllerRumble>
+  <onlinePlayerLevel>1</onlinePlayerLevel>
+  <onlinePlayerExperience>0</onlinePlayerExperience>
+</PlayerSettings>

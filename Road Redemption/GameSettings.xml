@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <resolution>
+    <width>1920</width>
+    <height>1080</height>
+    <refreshRate>50</refreshRate>
+  </resolution>
+  <fullscreen>true</fullscreen>
+  <multipleMonitors>true</multipleMonitors>
+  <qualityLevelMacro>4</qualityLevelMacro>
+  <antialiasing>0</antialiasing>
+  <vsync>false</vsync>
+  <fieldOfView>60</fieldOfView>
+  <shadowDistance>190</shadowDistance>
+  <textureQuality>0</textureQuality>
+  <shadowDetail>0</shadowDetail>
+  <rearView>true</rearView>
+  <masterVolume>1</masterVolume>
+  <musicVolume>1</musicVolume>
+  <sfxVolume>1</sfxVolume>
+  <voiceOverVolume>1</voiceOverVolume>
+  <lastLoadedProfile>-1</lastLoadedProfile>
+  <useSecondaryLinuxGamepadMapping>false</useSecondaryLinuxGamepadMapping>
+  <resetBindings3>true</resetBindings3>
+</GameSettings>

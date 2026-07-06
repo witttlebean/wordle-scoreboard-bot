@@ -1,0 +1,14 @@
+[2025-04-20 18:46:57.108] [ 15412] [A964] ===================================
+[2025-04-20 18:46:57.108] [ 15412] [A964] Browser process opened from pid: 40396
+[2025-04-20 18:46:57.108] [ 15412] [A964] Language: en
+[2025-04-20 18:46:57.108] [ 15412] [A964] Connecting to IPC channel: rgsc_ipc_9dcc_channel_0
+[2025-04-20 18:46:57.109] [ 15412] [A964] Product version: RockstarGames/2.4.0.71/1.0.813.11/gta5/XblPc
+[2025-04-20 18:46:57.158] [ 15412] [A964] OnChannelConnected - rgsc_ipc_9dcc_channel_0 (remoteProcessId 40396)
+[2025-04-20 18:46:57.915] [ 15412] [A964] Renderer[1][44212] IPC Channel Response: 44212 -> rgsc_ipc_9dcc_channel_1
+[2025-04-20 18:46:57.916] [ 15412] [A964] Renderer[1][44212] Connecting to IPC channel: rgsc_ipc_9dcc_channel_1
+[2025-04-20 18:46:58.008] [ 15412] [A964] Renderer[1][44212] OnChannelConnected - rgsc_ipc_9dcc_channel_1 (remoteProcessId 40396)
+[2025-04-20 18:46:59.424] [ 15412] [A964] OnChannelError() - rgsc_ipc_9dcc_channel_0
+[2025-04-20 18:46:59.424] [ 15412] [A964] Shutdown requested
+[2025-04-20 18:47:04.439] [ 15412] [A964] Timed out waiting for windows to close on shutdown
+[2025-04-20 18:47:04.454] [ 15412] [A964] MainMessageLoopInternalPump - Preparing to shutdown
+[2025-04-20 18:47:07.580] [ 15412] [A964] MainMessageLoopInternalPump - Shutdown

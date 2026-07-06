@@ -1,0 +1,79 @@
+[2025-01-06 20:18:35.550] [ 36792] [8F78] ===================================
+[2025-01-06 20:18:35.551] [ 36792] [8F78] Browser process opened from pid: 36676
+[2025-01-06 20:18:35.551] [ 36792] [8F78] Language: en
+[2025-01-06 20:18:35.551] [ 36792] [8F78] Connecting to IPC channel: rgsc_ipc_8f44_channel_0
+[2025-01-06 20:18:35.552] [ 36792] [8F78] Product version: RockstarGames/2.3.8.0/1.0.98.2208/launcher/PC
+[2025-01-06 20:18:35.648] [ 36792] [8F78] OnChannelConnected - rgsc_ipc_8f44_channel_0 (remoteProcessId 36676)
+[2025-01-06 20:18:36.164] [ 36792] [8F78] Renderer[1][36320] IPC Channel Response: 36320 -> rgsc_ipc_8f44_channel_1
+[2025-01-06 20:18:36.164] [ 36792] [8F78] Renderer[1][36320] Connecting to IPC channel: rgsc_ipc_8f44_channel_1
+[2025-01-06 20:18:36.242] [ 36792] [8F78] Renderer[1][36320] OnChannelConnected - rgsc_ipc_8f44_channel_1 (remoteProcessId 36676)
+[2025-01-06 20:21:16.811] [ 36792] [8F78] OnChannelError() - rgsc_ipc_8f44_channel_0
+[2025-01-06 20:21:16.811] [ 36792] [8F78] Shutdown requested
+[2025-01-06 20:21:21.822] [ 36792] [8F78] Timed out waiting for windows to close on shutdown
+[2025-01-06 20:21:21.837] [ 36792] [8F78] MainMessageLoopInternalPump - Preparing to shutdown
+[2025-01-06 20:21:24.871] [ 36792] [8F78] MainMessageLoopInternalPump - Shutdown
+[2025-04-20 18:34:04.864] [ 39168] [8C60] ===================================
+[2025-04-20 18:34:04.871] [ 39168] [8C60] Browser process opened from pid: 38464
+[2025-04-20 18:34:04.871] [ 39168] [8C60] Language: en
+[2025-04-20 18:34:04.872] [ 39168] [8C60] Connecting to IPC channel: rgsc_ipc_9640_channel_0
+[2025-04-20 18:34:04.872] [ 39168] [8C60] Product version: RockstarGames/2.4.0.71/1.0.102.2423/launcher/XblPc
+[2025-04-20 18:34:04.959] [ 39168] [8C60] OnChannelConnected - rgsc_ipc_9640_channel_0 (remoteProcessId 38464)
+[2025-04-20 18:34:05.641] [ 39168] [8C60] Renderer[1][36912] IPC Channel Response: 36912 -> rgsc_ipc_9640_channel_1
+[2025-04-20 18:34:05.641] [ 39168] [8C60] Renderer[1][36912] Connecting to IPC channel: rgsc_ipc_9640_channel_1
+[2025-04-20 18:34:05.703] [ 39168] [8C60] Renderer[1][36912] OnChannelConnected - rgsc_ipc_9640_channel_1 (remoteProcessId 38464)
+[2025-04-20 18:34:07.605] [ 39168] [8C60] Renderer[2][30064] IPC Channel Response: 30064 -> rgsc_ipc_9640_channel_2
+[2025-04-20 18:34:07.605] [ 39168] [8C60] Renderer[2][30064] Connecting to IPC channel: rgsc_ipc_9640_channel_2
+[2025-04-20 18:34:07.700] [ 39168] [8C60] Renderer[2][30064] OnChannelConnected - rgsc_ipc_9640_channel_2 (remoteProcessId 38464)
+[2025-04-20 18:34:08.403] [ 39168] [8C60] Renderer[2][30064] IPC Channel Response: 30064 -> rgsc_ipc_9640_channel_3
+[2025-04-20 18:34:08.404] [ 39168] [8C60] Renderer[2][30064] Connecting to IPC channel: rgsc_ipc_9640_channel_3
+[2025-04-20 18:34:08.637] [ 39168] [8C60] Renderer[2][30064] OnChannelConnected - rgsc_ipc_9640_channel_3 (remoteProcessId 38464)
+[2025-04-20 18:35:50.866] [ 39168] [8C60] Renderer[3][44424] IPC Channel Response: 44424 -> rgsc_ipc_9dcc_channel_0
+[2025-04-20 18:35:50.866] [ 39168] [8C60] Renderer[3][44424] Connecting to IPC channel: rgsc_ipc_9dcc_channel_0
+[2025-04-20 18:35:50.913] [ 39168] [8C60] Renderer[3][44424] OnChannelConnected - rgsc_ipc_9dcc_channel_0 (remoteProcessId 40396)
+[2025-04-20 18:46:56.437] [ 39168] [8C60] OnChannelError() - rgsc_ipc_9640_channel_0
+[2025-04-20 18:46:56.437] [ 39168] [8C60] Shutdown requested
+[2025-04-20 18:47:01.477] [ 39168] [8C60] Timed out waiting for windows to close on shutdown
+[2025-04-20 18:47:01.493] [ 39168] [8C60] MainMessageLoopInternalPump - Preparing to shutdown
+[2025-04-20 18:47:04.610] [ 39168] [8C60] MainMessageLoopInternalPump - Shutdown
+[2025-04-20 19:10:06.166] [ 36432] [6714] ===================================
+[2025-04-20 19:10:06.167] [ 36432] [6714] Browser process opened from pid: 42144
+[2025-04-20 19:10:06.167] [ 36432] [6714] Language: en
+[2025-04-20 19:10:06.167] [ 36432] [6714] Connecting to IPC channel: rgsc_ipc_a4a0_channel_0
+[2025-04-20 19:10:06.167] [ 36432] [6714] Product version: RockstarGames/2.4.0.71/1.0.102.2423/launcher/XblPc
+[2025-04-20 19:10:06.223] [ 36432] [6714] OnChannelConnected - rgsc_ipc_a4a0_channel_0 (remoteProcessId 42144)
+[2025-04-20 19:10:06.817] [ 36432] [6714] Renderer[1][38376] IPC Channel Response: 38376 -> rgsc_ipc_a4a0_channel_1
+[2025-04-20 19:10:06.817] [ 36432] [6714] Renderer[1][38376] Connecting to IPC channel: rgsc_ipc_a4a0_channel_1
+[2025-04-20 19:10:06.863] [ 36432] [6714] Renderer[1][38376] OnChannelConnected - rgsc_ipc_a4a0_channel_1 (remoteProcessId 42144)
+[2025-04-20 19:10:07.783] [ 36432] [6714] Renderer[2][31936] IPC Channel Response: 31936 -> rgsc_ipc_a4a0_channel_2
+[2025-04-20 19:10:07.784] [ 36432] [6714] Renderer[2][31936] Connecting to IPC channel: rgsc_ipc_a4a0_channel_2
+[2025-04-20 19:10:08.112] [ 36432] [6714] Renderer[2][31936] OnChannelConnected - rgsc_ipc_a4a0_channel_2 (remoteProcessId 42144)
+[2025-04-20 19:10:08.351] [ 36432] [6714] Renderer[2][31936] IPC Channel Response: 31936 -> rgsc_ipc_a4a0_channel_3
+[2025-04-20 19:10:08.351] [ 36432] [6714] Renderer[2][31936] Connecting to IPC channel: rgsc_ipc_a4a0_channel_3
+[2025-04-20 19:10:08.352] [ 36432] [6714] Renderer[2][31936] IPC Channel Response: 31936 -> rgsc_ipc_a4a0_channel_3
+[2025-04-20 19:10:08.376] [ 36432] [6714] Renderer[2][31936] OnChannelConnected - rgsc_ipc_a4a0_channel_3 (remoteProcessId 42144)
+[2025-04-20 19:15:55.725] [  4960] [71A0] ===================================
+[2025-04-20 19:15:55.731] [  4960] [71A0] Browser process opened from pid: 32176
+[2025-04-20 19:15:55.732] [  4960] [71A0] Language: en
+[2025-04-20 19:15:55.732] [  4960] [71A0] Connecting to IPC channel: rgsc_ipc_7db0_channel_0
+[2025-04-20 19:15:55.732] [  4960] [71A0] Product version: RockstarGames/2.4.0.71/1.0.102.2423/launcher/XblPc
+[2025-04-20 19:15:55.792] [  4960] [71A0] OnChannelConnected - rgsc_ipc_7db0_channel_0 (remoteProcessId 32176)
+[2025-04-20 19:15:56.567] [  4960] [71A0] Renderer[1][13260] IPC Channel Response: 13260 -> rgsc_ipc_7db0_channel_1
+[2025-04-20 19:15:56.567] [  4960] [71A0] Renderer[1][13260] Connecting to IPC channel: rgsc_ipc_7db0_channel_1
+[2025-04-20 19:15:56.895] [  4960] [71A0] Renderer[1][13260] OnChannelConnected - rgsc_ipc_7db0_channel_1 (remoteProcessId 32176)
+[2025-04-20 19:15:57.555] [  4960] [71A0] Renderer[2][33760] IPC Channel Response: 33760 -> rgsc_ipc_7db0_channel_2
+[2025-04-20 19:15:57.556] [  4960] [71A0] Renderer[2][33760] Connecting to IPC channel: rgsc_ipc_7db0_channel_2
+[2025-04-20 19:15:57.869] [  4960] [71A0] Renderer[2][33760] OnChannelConnected - rgsc_ipc_7db0_channel_2 (remoteProcessId 32176)
+[2025-04-20 19:15:58.216] [  4960] [71A0] Renderer[2][33760] IPC Channel Response: 33760 -> rgsc_ipc_7db0_channel_3
+[2025-04-20 19:15:58.217] [  4960] [71A0] Renderer[2][33760] Connecting to IPC channel: rgsc_ipc_7db0_channel_3
+[2025-04-20 19:15:58.245] [  4960] [71A0] Renderer[2][33760] OnChannelConnected - rgsc_ipc_7db0_channel_3 (remoteProcessId 32176)
+[2025-04-20 19:16:33.922] [  4960] [71A0] Renderer[3][35820] IPC Channel Response: 35820 -> rgsc_ipc_8628_channel_0
+[2025-04-20 19:16:33.923] [  4960] [71A0] Renderer[3][35820] Connecting to IPC channel: rgsc_ipc_8628_channel_0
+[2025-04-20 19:16:34.048] [  4960] [71A0] Renderer[3][35820] OnChannelConnected - rgsc_ipc_8628_channel_0 (remoteProcessId 34344)
+[2025-04-20 19:19:15.196] [  4960] [71A0] Renderer[4][34872] IPC Channel Response: 34872 -> rgsc_ipc_9380_channel_0
+[2025-04-20 19:19:15.196] [  4960] [71A0] Renderer[4][34872] Connecting to IPC channel: rgsc_ipc_9380_channel_0
+[2025-04-20 19:19:15.241] [  4960] [71A0] Renderer[4][34872] OnChannelConnected - rgsc_ipc_9380_channel_0 (remoteProcessId 37760)
+[2025-04-20 19:57:46.885] [  4960] [71A0] OnChannelError() - rgsc_ipc_7db0_channel_0
+[2025-04-20 19:57:46.890] [  4960] [71A0] Shutdown requested
+[2025-04-20 19:57:51.905] [  4960] [71A0] Timed out waiting for windows to close on shutdown
+[2025-04-20 19:57:51.920] [  4960] [71A0] MainMessageLoopInternalPump - Preparing to shutdown
+[2025-04-20 19:57:55.050] [  4960] [71A0] MainMessageLoopInternalPump - Shutdown
