@@ -1,0 +1,6 @@
+node_modules/
+.env
+data/scores.json
+data/settings.json
+data/overrides.json
+data/lottery.json
